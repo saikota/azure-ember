@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="89ad1602-15e8-488d-a706-58f6d1c2903a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1617753469790</updated>
       <workItem from="1617753476294" duration="154000" />
-      <workItem from="1617753654439" duration="2785000" />
+      <workItem from="1617753654439" duration="4133000" />
     </task>
     <servers>
       <JIRA url="https://jira01.corp.linkedin.com:8443">
