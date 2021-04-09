@@ -52,7 +52,8 @@
     "qunit-dom": "^1.2.0"
   },
   "engines": {
-    "node": "9.* || 10.* || <= 12"
+    "node": "9.* || 10.* || <= 12",
+    "yarn": "1.19.0"
   },
   "ember": {
     "edition": "octane"
