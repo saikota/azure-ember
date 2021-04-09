@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="89ad1602-15e8-488d-a706-58f6d1c2903a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/application.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +56,8 @@
       <option name="presentableId" value="Default" />
       <updated>1617753469790</updated>
       <workItem from="1617753476294" duration="154000" />
-      <workItem from="1617753654439" duration="4133000" />
+      <workItem from="1617753654439" duration="5088000" />
+      <workItem from="1617936213030" duration="1205000" />
     </task>
     <servers>
       <JIRA url="https://jira01.corp.linkedin.com:8443">
@@ -65,5 +69,15 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="464" y="217" width="751" height="616" key="find.popup" timestamp="1617983008783">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="464" y="217" width="751" height="616" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1617983008783" />
+    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup" timestamp="1617918733948">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup/1680.-667.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1617918733948" />
   </component>
 </project>
