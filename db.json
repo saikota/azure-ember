@@ -1,0 +1,33 @@
+{
+  "tasks": [{
+    "id": 1,
+    "name": "API mapping",
+    "author": "skota",
+    "isComplete": true
+   },
+    {
+      "id": 2,
+      "name": "Mirage API Data",
+      "author": "skota",
+      "isComplete": false
+    } ,
+    {
+      "id": 3,
+      "name": "Ember Fire",
+      "author": "skota",
+      "isComplete": false
+    },
+    {
+      "id": 4,
+      "name": "Ember Data",
+      "author": "skota",
+      "isComplete": false
+    },
+    {
+      "id": 5,
+      "name": "PWA",
+      "author": "skota",
+      "isComplete": false
+    }
+  ]
+}

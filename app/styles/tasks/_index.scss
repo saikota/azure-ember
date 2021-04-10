@@ -1,0 +1,29 @@
+:root {
+  --borderWidth: 7px;
+  --height: 24px;
+  --width: 12px;
+  --borderColor: #78b13f;
+}
+
+.tasks-container{
+  display:flex;
+  align-content: center;
+  margin: 20px;
+  flex-direction: column;
+}
+.list-tasks{
+ border: 1px solid red;
+  list-style-type: none;
+}
+.done{
+  text-decoration: line-through;
+}
+
+.check{
+  display: inline-block;
+  transform: rotate(45deg);
+  height: var(--height);
+  width: var(--width);
+  border-bottom: var(--borderWidth) solid var(--borderColor);
+  border-right: var(--borderWidth) solid var(--borderColor);
+}

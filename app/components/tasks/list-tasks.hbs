@@ -1,0 +1,37 @@
+<div class="list-tasks">
+  <table class="table">
+    <thead>
+    <tr>
+      <th>
+        id
+      </th>
+      <th>
+        Name
+      </th>
+      <th>
+        isComplete?
+      </th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each @tasks as |task|}}
+      <tr>
+        <td>
+               <span>
+                 {{task.id}}
+               </span>
+        </td>
+        <td class="{{if task.isComplete "done" "not-done"}}">
+          {{task.name}}
+        </td>
+        <td>
+          {{#if task.isComplete}}
+            <div class="check">
+            </div>
+          {{/if}}
+        </td>
+      </tr>
+    {{/each}}
+    </tbody>
+  </table>
+</div>
