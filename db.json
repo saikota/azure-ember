@@ -1,17 +1,17 @@
 {
   "tasks": [
     {
-    "id": 1,
-    "name": "API mapping",
-    "author": "skota",
-    "isComplete": true
-   },
+      "id": 1,
+      "name": "API mapping",
+      "author": "skota",
+      "isComplete": true
+    },
     {
       "id": 2,
       "name": "Mirage API Data",
       "author": "skota",
       "isComplete": false
-    } ,
+    },
     {
       "id": 3,
       "name": "Ember Fire",
@@ -46,7 +46,7 @@
       "id": 8,
       "name": "Create Task",
       "author": "skota",
-      "isComplete": false
+      "isComplete": true
     },
     {
       "id": 9,
@@ -59,6 +59,21 @@
       "name": "Have Authorization Support",
       "author": "skota",
       "isComplete": false
+    },
+    {
+      "name": "Add Footer",
+      "author": "skota",
+      "id": 11
+    },
+    {
+      "name": "Update a Task",
+      "author": "skota",
+      "id": 12
+    },
+    {
+      "name": "Refresh the list once user submits data",
+      "author": "skota",
+      "id": 13
     }
   ]
 }

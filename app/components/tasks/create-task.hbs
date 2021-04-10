@@ -1,1 +1,25 @@
-{{yield}}
+<form {{on "submit" this.submitForm}}>
+  <div class="form-group">
+    <label for="task">Task Name</label>
+    <input type="text"
+           class="form-control"
+           id="task"
+           aria-describedby="task"
+           placeholder="Enter task to be created"
+           {{on "blur" this.updateName}}
+    >
+    <small id="taskhelp" class="form-text text-muted">If you want to complete something, log it.. </small>
+  </div>
+  <div class="form-group">
+    <label for="user">User</label>
+    <input type="text"
+           class="form-control"
+           id="created-by"
+           aria-describedby="created-by"
+           placeholder="who created this task"
+    {{on "blur" this.updateCreator}}
+    >
+  </div>
+  {{!-- Add assign field which is select --}}
+  <button type="submit" class="task-submit btn btn-primary">Submit</button>
+</form>

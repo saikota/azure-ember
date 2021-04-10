@@ -9,6 +9,9 @@
         Name
       </th>
       <th>
+        Created by
+      </th>
+      <th>
         isComplete?
       </th>
     </tr>
@@ -23,6 +26,9 @@
         </td>
         <td class="{{if task.isComplete "done" "not-done"}}">
           {{task.name}}
+        </td>
+        <td >
+          {{task.author}}
         </td>
         <td>
           {{#if task.isComplete}}
