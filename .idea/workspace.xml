@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89ad1602-15e8-488d-a706-58f6d1c2903a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/hello-world.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/hello-world.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/hello-world.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/hello-world.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/application.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ember-cli-build.js" beforeDir="false" afterPath="$PROJECT_DIR$/ember-cli-build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +62,7 @@
       <workItem from="1617753476294" duration="154000" />
       <workItem from="1617753654439" duration="5088000" />
       <workItem from="1617936213030" duration="1353000" />
-      <workItem from="1618012393319" duration="508000" />
+      <workItem from="1618012393319" duration="1899000" />
     </task>
     <servers>
       <JIRA url="https://jira01.corp.linkedin.com:8443">
@@ -71,6 +76,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="420" y="257" key="EditFileWatcherDialog" timestamp="1618015809183">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="420" y="257" key="EditFileWatcherDialog/1680.-667.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1618015809183" />
     <state x="464" y="217" width="751" height="616" key="find.popup" timestamp="1617983008783">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
