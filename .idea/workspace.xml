@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89ad1602-15e8-488d-a706-58f6d1c2903a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.ember-cli" beforeDir="false" afterPath="$PROJECT_DIR$/.ember-cli" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/nav/nav.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/nav/nav.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/tasks/_index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/tasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/tasks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/application.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/tasks.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/tasks.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +56,7 @@
       <workItem from="1617753476294" duration="154000" />
       <workItem from="1617753654439" duration="5088000" />
       <workItem from="1617936213030" duration="1353000" />
-      <workItem from="1618012393319" duration="7542000" />
+      <workItem from="1618012393319" duration="7820000" />
     </task>
     <servers>
       <JIRA url="https://jira01.corp.linkedin.com:8443">

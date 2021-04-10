@@ -1,5 +1,6 @@
 {
-  "tasks": [{
+  "tasks": [
+    {
     "id": 1,
     "name": "API mapping",
     "author": "skota",
@@ -26,6 +27,36 @@
     {
       "id": 5,
       "name": "PWA",
+      "author": "skota",
+      "isComplete": false
+    },
+    {
+      "id": 6,
+      "name": "Integrate with Azure Functions",
+      "author": "skota",
+      "isComplete": false
+    },
+    {
+      "id": 7,
+      "name": "Rearrange and persist list",
+      "author": "skota",
+      "isComplete": false
+    },
+    {
+      "id": 8,
+      "name": "Create Task",
+      "author": "skota",
+      "isComplete": false
+    },
+    {
+      "id": 9,
+      "name": "Have Multiple Users",
+      "author": "skota",
+      "isComplete": false
+    },
+    {
+      "id": 10,
+      "name": "Have Authorization Support",
       "author": "skota",
       "isComplete": false
     }
