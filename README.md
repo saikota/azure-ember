@@ -20,6 +20,7 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
+* `json-server --watch db.json` -> to start the json server on port 3000
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).

@@ -74,6 +74,11 @@
       "name": "Refresh the list once user submits data",
       "author": "skota",
       "id": 13
+    },
+    {
+      "name": "Update Readme with json-server details",
+      "author": "skota",
+      "id": 14
     }
   ]
 }
