@@ -29,7 +29,9 @@ You will need the following things properly installed on your computer.
 * Need to investigate how to link up static-web-app with an azure function
 * Need to investigate how to setup a proxy from local -> azure function
 * Need to investigate why multiple github actions are getting invoked
-* static-webapp is azure -v2
+* static-webapp is azure -v2 
+    * Current App is WhiteDesert
+    * Deleted CalmRocks
 * azure functions is azure-static-serverless
 ### Code Generators
 
