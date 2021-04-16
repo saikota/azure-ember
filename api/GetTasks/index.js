@@ -35,7 +35,7 @@ module.exports = async function (context, req) {
             "id": 6,
             "name": "Integrate with Azure Functions",
             "author": "skota",
-            "isComplete": false
+            "isComplete": true
           },
           {
             "id": 7,
@@ -85,8 +85,27 @@ module.exports = async function (context, req) {
             "name": "Publish using Azure functions ",
             "author": "skota",
             "id": 15
-          }
+          },
+          {
+            "name": "Persist to Database using Azure",
+            "author": "skota",
+            "id": 16
+          },
+          {
+            "name": "Add Authentication Layer usign Azure ADO",
+            "author": "skota",
+            "id": 17
+          },
+          {
+            "name": "Add CORS security so that only a particular web domain can hit the api",
+            "author": "skota",
+            "id": 18
+          },
+          {
+            "name": "Add Authorizatoin levels so everyone can hit the db",
+            "author": "skota",
+            "id": 19
+          },
         ]
     };
-   // context.done();
   };
