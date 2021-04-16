@@ -11,7 +11,7 @@ module.exports = async function (context, req) {
             "id": 2,
             "name": "Mirage API Data",
             "author": "skota",
-            "isComplete": false
+            "isComplete": true
           },
           {
             "id": 3,
@@ -100,12 +100,7 @@ module.exports = async function (context, req) {
             "name": "Add CORS security so that only a particular web domain can hit the api",
             "author": "skota",
             "id": 18
-          },
-          {
-            "name": "Add Authorizatoin levels so everyone can hit the db",
-            "author": "skota",
-            "id": 19
-          },
+          }
         ]
     };
   };
