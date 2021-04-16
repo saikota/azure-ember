@@ -80,7 +80,13 @@ module.exports = async function (context, req) {
             "name": "Update Readme with json-server details",
             "author": "skota",
             "id": 14
+          },
+          {
+            "name": "Publish using Azure functions ",
+            "author": "skota",
+            "id": 15
           }
         ]
     };
+   // context.done();
   };
