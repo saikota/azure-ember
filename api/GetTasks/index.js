@@ -100,6 +100,11 @@ module.exports = async function (context, req) {
             "name": "Add CORS security so that only a particular web domain can hit the api",
             "author": "skota",
             "id": 18
+          },
+          {
+            "name": "Refresh on tasks url is failign the application",
+            "author": "skota",
+            "id": 19
           }
         ]
     };
