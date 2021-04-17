@@ -1,14 +1,13 @@
 # azure-ember
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This Repo is to get started with a  serverless application using Ember and Azure StaticWebApp
 
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
 
 * [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
+* [Node.js](https://nodejs.org/) (with npm) LTS Version
 * [Ember CLI](https://ember-cli.com/)
 * [Google Chrome](https://google.com/chrome/)
 
@@ -26,16 +25,12 @@ You will need the following things properly installed on your computer.
 * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
 ## Status
-* Need to investigate how to link up static-web-app with an azure function
-* Need to investigate how to setup a proxy from local -> azure function
-* Need to investigate why multiple github actions are getting invoked
-* static-webapp is azure -v2 
-    * Current App is WhiteDesert
-    * Deleted CalmRocks
-* azure functions is azure-static-serverless
-### Code Generators
+* Refer the Todo Section after starting app to know the current status
 
-Make use of the many generators for code, try `ember help generate` for more details
+
+## Features
+* Contains basic integration of azure & ember
+* uses ember-bootstrap for bootstrap widgets in ember
 
 ### Running Tests
 
@@ -55,7 +50,8 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+* `git push origin main`
+* visit the app url from azure portal
 
 ## Further Reading / Useful Links
 
