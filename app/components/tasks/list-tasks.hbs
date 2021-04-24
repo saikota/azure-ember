@@ -14,6 +14,9 @@
       <th>
         isComplete?
       </th>
+      <th>
+        Delete
+      </th>
     </tr>
     </thead>
     <tbody>
@@ -32,9 +35,13 @@
         </td>
         <td>
           {{#if task.isComplete}}
-            <div class="check">
-            </div>
+            <i class="bi bi-check-circle-fill"  style="font-size: 2rem; color: cornflowerblue;"></i>
           {{/if}}
+        </td>
+        <td>
+            <div>
+              <i class="bi bi-trash" style="font-size: 2rem; color: cornflowerblue;"></i>
+            </div>
         </td>
       </tr>
     {{/each}}
