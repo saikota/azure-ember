@@ -14,4 +14,11 @@ export default class TaskController extends  Controller {
       })
     })
  }
-};
+
+ @action
+ deleteTask(task){
+    return fetch(`api/DeleteTask/${task.id}`, {
+      method: 'delete',
+    })
+ }
+}

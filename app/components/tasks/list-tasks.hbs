@@ -39,7 +39,7 @@
           {{/if}}
         </td>
         <td>
-            <div>
+            <div {{on "click" (fn @deleteTask task)}}>
               <i class="bi bi-trash" style="font-size: 2rem; color: cornflowerblue;"></i>
             </div>
         </td>

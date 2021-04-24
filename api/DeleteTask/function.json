@@ -8,7 +8,7 @@
       "methods": [
         "delete"
       ],
-      "route":"DeleteTask"
+      "route":"DeleteTask/{id}"
     },
     {
       "type": "http",
