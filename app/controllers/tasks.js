@@ -1,12 +1,11 @@
 import Controller from '@ember/controller';
 import { action } from '@ember/object';
 
-export default Controller.extend( {
-
+export default class TaskController extends  Controller {
   @action
     createTask(tasksFormObj){
 
-    return fetch('/tasks', {
+    return fetch('/api/CreateTask', {
       method: 'post',
       headers: new Headers({'content-type': 'application/json'}),
       body: JSON.stringify({
@@ -15,4 +14,4 @@ export default Controller.extend( {
       })
     })
  }
-});
+};
