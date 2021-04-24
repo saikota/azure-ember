@@ -6,9 +6,9 @@
       "direction": "in",
       "name": "req",
       "methods": [
-        "post"
+        "put"
       ],
-      "route": "CreateTask"
+      "route":"UpdateTask"
     },
     {
       "type": "http",

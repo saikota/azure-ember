@@ -6,9 +6,9 @@
       "direction": "in",
       "name": "req",
       "methods": [
-        "post"
+        "delete"
       ],
-      "route": "CreateTask"
+      "route":"DeleteTask"
     },
     {
       "type": "http",
