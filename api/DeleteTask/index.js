@@ -1,4 +1,4 @@
-const taskService = require('../functions/services/tasks');
+const taskService = require('../services/tasks');
 
 module.exports = async function (context, req) {
     try {
