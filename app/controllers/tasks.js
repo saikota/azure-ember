@@ -3,8 +3,7 @@ import { action } from '@ember/object';
 
 export default class TaskController extends  Controller {
   @action
-    createTask(tasksFormObj){
-
+  createTask(tasksFormObj){
     return fetch('/api/CreateTask', {
       method: 'post',
       headers: new Headers({'content-type': 'application/json'}),
