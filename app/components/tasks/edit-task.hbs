@@ -1,0 +1,10 @@
+<input type="text"
+       class="form-control"
+       id="updated-task-{{@task.id}}"
+       data-attr-taskid={{@task.id}}
+       aria-describedby="Update your task"
+       value={{@task.name}}
+       {{on "blur" this.updateTaskName}}
+>
+<i class="bi bi-check2" {{on "click" this.updateTask}} style="color: cornflowerblue;"></i>
+<i class="bi bi-x-circle-fill" style="color: cornflowerblue;" {{on "click" @resetEditMode}}></i>

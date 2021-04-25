@@ -125,8 +125,10 @@ module.exports = {
     },
     editTask: function(taskObj) {
         data.tasks = data.tasks.map(task => {
-            if (task.id === taskObj.id) task = taskObj;
-            return taskObj;
+            if (task.id === taskObj.id) {
+              task = taskObj;
+            }
+            return task;
         });
         return {
             message: "task edited",

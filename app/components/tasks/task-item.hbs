@@ -1,0 +1,31 @@
+<tr>
+  <td>
+    {{@task.id}}
+  </td>
+  <td class="{{if @task.isComplete "done" "not-done"}}">
+    {{#if this.editMode}}
+      <Tasks::EditTask @task={{@task}}
+                       @saveTask={{this.updateTask}}
+
+                       @resetEditMode={{this.resetEditMode}}/>
+    {{else}}
+      {{@task.name}}
+      <i class="bi bi-pencil-square" style="color: cornflowerblue;"
+      {{on "click" this.updateEditMode}}></i>
+    {{/if}}
+
+  </td>
+  <td>
+    {{@task.author}}
+  </td>
+  <td>
+    {{#if @task.isComplete}}
+      <i class="bi bi-check-circle-fill" style="color: cornflowerblue;"></i>
+    {{/if}}
+  </td>
+  <td>
+    <div {{on "click" (fn @deleteTask @task)}}>
+      <i class="bi bi-trash" style=" color: cornflowerblue;"></i>
+    </div>
+  </td>
+</tr>

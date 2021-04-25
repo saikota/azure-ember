@@ -6,9 +6,10 @@
       "direction": "in",
       "name": "req",
       "methods": [
-        "put"
+        "put",
+        "patch"
       ],
-      "route":"UpdateTask"
+      "route":"UpdateTask/{id}"
     },
     {
       "type": "http",

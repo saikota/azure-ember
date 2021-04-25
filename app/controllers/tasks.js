@@ -21,4 +21,13 @@ export default class TaskController extends  Controller {
       method: 'delete',
     })
  }
+
+ @action
+ updateTask(task){
+    return fetch(`api/UpdateTask/${task.id}`,{
+      method:'put',
+      headers: new Headers({'content-type': 'application/json'}),
+      body: JSON.stringify(task)
+    });
+ }
 }

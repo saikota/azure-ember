@@ -3,5 +3,8 @@
 </div>
 <div class="tasks-container">
   <p> These are the list of tasks, you need to complete</p>
-  <Tasks::ListTasks @tasks={{this.model}} @deleteTask={{action "deleteTask"}}/>
+  <Tasks::ListTasks @tasks={{this.model}}
+                    @deleteTask={{action "deleteTask"}}
+                    @updateTask={{action "updateTask"}}
+  />
 </div>

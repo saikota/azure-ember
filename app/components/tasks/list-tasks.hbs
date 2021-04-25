@@ -21,29 +21,7 @@
     </thead>
     <tbody>
     {{#each @tasks as |task|}}
-      <tr>
-        <td>
-               <span>
-                 {{task.id}}
-               </span>
-        </td>
-        <td class="{{if task.isComplete "done" "not-done"}}">
-          {{task.name}}
-        </td>
-        <td >
-          {{task.author}}
-        </td>
-        <td>
-          {{#if task.isComplete}}
-            <i class="bi bi-check-circle-fill"  style="font-size: 2rem; color: cornflowerblue;"></i>
-          {{/if}}
-        </td>
-        <td>
-            <div {{on "click" (fn @deleteTask task)}}>
-              <i class="bi bi-trash" style="font-size: 2rem; color: cornflowerblue;"></i>
-            </div>
-        </td>
-      </tr>
+      <Tasks::TaskItem @task={{task}} @deleteTask={{@deleteTask}} @updateTask={{@updateTask}} />
     {{/each}}
     </tbody>
   </table>
