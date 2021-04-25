@@ -1,7 +1,10 @@
-# azure-ember
+## azure-ember-serverless
+Serverless apps on Azure using Ember && Azure Functions
+Creted a TODO App
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+
+## Hosted App Url - Demo
+[https://white-desert-02221791e.azurestaticapps.net/tasks](https://white-desert-02221791e.azurestaticapps.net/tasks)
 
 ## Prerequisites
 
@@ -25,28 +28,6 @@ You will need the following things properly installed on your computer.
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
-## Status
-* Need to investigate how to link up static-web-app with an azure function - check the github actions 
-* Need to investigate how to setup a proxy from local -> azure function
-* Need to investigate why multiple github actions are getting invoked
-* static-webapp is azure -v2 
-    * Current App is WhiteDesert
-    * Deleted CalmRocks
-* azure functions is azure-static-serverless
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Linting
-
-* `npm run lint:hbs`
-* `npm run lint:js`
-* `npm run lint:js -- --fix`
 
 ### Building
 
