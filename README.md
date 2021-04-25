@@ -4,7 +4,7 @@ Creted a TODO App
 
 
 ## Hosted App Url - Demo
-[https://white-desert-02221791e.azurestaticapps.net/tasks](https://white-desert-02221791e.azurestaticapps.net/tasks)
+[https://white-desert-02221791e.azurestaticapps.net](https://white-desert-02221791e.azurestaticapps.net/tasks)
 
 ## Prerequisites
 
